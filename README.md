@@ -45,13 +45,13 @@ This plugin is an independent implementation of the same idea, written so that n
 From the DeepSeek Harness desktop app: **Plugins → add**, using the git URL (or a local checkout):
 
 ```
-github:<you>/dsh-peak-window
+github:rubisamr/dsh-peak-window
 ```
 
 or, for an npm-installed harness profile, from a terminal:
 
 ```
-dsh plugin --profile <profile> add github:<you>/dsh-peak-window
+dsh plugin --profile <profile> add github:rubisamr/dsh-peak-window
 ```
 
 The desktop app manages its own reserved profile, so add it from the app's Plugins page rather than the CLI. Restart the app (or the profile) afterwards: client code is composed when the host starts.
