@@ -1,0 +1,8 @@
+# Capa de perfil de `dsh-peak-window`: monta el plugin.
+#
+# La fila resuelve el paquete por su nombre, que es como queda instalado en el perfil.
+# Esta mitad de host sólo sirve **una** ruta con el estado de precios; la mitad de
+# cliente pinta el distintivo en el compositor del chat.
+- insert:
+    - id: peak-window
+      name: 'dsh-peak-window'

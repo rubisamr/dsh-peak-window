@@ -1,0 +1,44 @@
+{
+  "name": "dsh-peak-window",
+  "version": "0.1.0",
+  "description": "DeepSeek peak / off-peak pricing badge for the DeepSeek Harness: a coloured dot, the rate class and a live countdown to the next change, in the chat composer.",
+  "license": "MIT",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/dsh": ">=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "src/peak.js",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/peak.mjs"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek",
+    "deepseek-harness",
+    "pricing",
+    "peak",
+    "off-peak"
+  ]
+}
